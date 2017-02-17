@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LayoutChange</string>
+    <string name="tips">Add an item above to get started</string>
+    <string name="add">add item</string>
+</resources>

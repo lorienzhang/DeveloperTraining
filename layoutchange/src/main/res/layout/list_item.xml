@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--    水平的LinearLayout中添加垂直分割线属性： android:showDividers="middle"
+        android:divider="?android:dividerVertical"
+        android:dividerPadding="8dp"    -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="?android:listPreferredItemHeightSmall"
+              android:divider="?android:dividerVertical"
+              android:dividerPadding="8dp"
+              android:gravity="center"
+              android:orientation="horizontal"
+              android:showDividers="middle">
+
+    <TextView
+        android:id="@+id/country"
+        style="?android:textAppearanceMedium"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="?android:listPreferredItemPaddingLeft"
+        android:text="China"/>
+
+    <!--    注意：给ImageButton设置了background，废弃传统Button风格的background    -->
+    <ImageButton
+        android:id="@+id/remove_item"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:background="?android:selectableItemBackground"
+        android:src="@mipmap/ic_list_remove"/>
+
+</LinearLayout>

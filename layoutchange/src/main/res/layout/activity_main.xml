@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    在ScrollView中包含一个Vertical的LinearLayout, 可以用来模拟ListView的效果
+            如果不是太多的item，这种方式会比ListView轻量级   -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--    android:animateLayoutChanges属性设为true，表明向该LinearLayout添加
+                或删除子view，系统会提供动画效果；另外注意一些别的属性，比如：android:showDividers
+                用来显示分割线；android:divider设置具体的分割线。    -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/container"
+            android:orientation="vertical"
+            android:showDividers="middle"
+            android:divider="@android:drawable/divider_horizontal_bright"
+            android:animateLayoutChanges="true"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"/>
+    </ScrollView>
+
+    <!--    当没有item时，TextView显示；只要有一个item，就将该TextView设为GONE -->
+    <TextView
+        style="@android:style/TextAppearance.Small"
+        android:id="@android:id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/tips"/>
+
+</FrameLayout>

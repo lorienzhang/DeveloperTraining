@@ -1,0 +1,1 @@
+include ':crossfading', ':screenslide', ':zoom', ':layoutchange'
