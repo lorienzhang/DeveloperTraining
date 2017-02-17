@@ -64,5 +64,3 @@ view切换时添加淡入淡出效果，增强用户体验
 * 整体效果类似ListView，但是使用orientation为Vertical的LinearLayout实现的，如果item不是很多，这种方式比ListView更加轻量级；
 * LinearLayout属性：android:animateLayoutChanges="true"，设置这个属性后，如果LinearLayout的布局发生变化，系统会添加动画效果；
 * 还有关于LinearLayout其它属性：android:showDividers="middle"表示子view之间添加分割线，android:divider="@android:drawable/divider_horizontal_bright"选择系统提供的分割线
-
-
