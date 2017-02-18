@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NetworkConnect</string>
+    <string name="fetch_text">欢迎使用Android网络连接！点击FETCH菜单获得"www.baidu.com"的html文本字符串.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fetch">fetch</string>
+    <string name="action_clear">clear</string>
+    <string name="connection_error">网络连接失败！！！</string>
+</resources>

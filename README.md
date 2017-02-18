@@ -5,6 +5,23 @@ Blog: http://blog.csdn.net/h_zhang
 
 ---
 
+# NetworkConnet
+关于网络连接，以及从网络中获取数据的基本操作
+
+### 效果图
+<div class='row'>
+	<img src='./networkconnect/networkconnect.gif' width='300px'/>
+</div>
+
+### 相关知识点
+* 布局中layout_weight属性，实现两个TextView各占据一半空间；
+* 使用headless fragment封装网络操作，以及处理网络操作过程中的events;
+* 使用HttpUrlConnection从网络中获取数据；
+* DownloadCallback接口的设计，可以参考AsyncTask中的回调函数设计接口；
+* AsyncTask的基本用法；AsyncTask.execute(), AsyncTask.cancel();
+* 注意Activity潜在的内存泄漏，在Fragment的onDetach()回调中解除对Activity的引用：mCallback=null;
+* 防止Activity重构导致Fragment引用丢失，setRetainInstance(true);这样如果Activity，仍然可以找到之前的Fragment；
+
 # ScreenSlide
 屏幕滑动，ViewPager的基本使用
 
