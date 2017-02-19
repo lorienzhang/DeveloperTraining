@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">StackOverflowXmlParser</string>
+    <string name="tip">点击parse菜单，从网络上下载XML Feed，并且解析...</string>
+</resources>

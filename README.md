@@ -5,6 +5,47 @@ Blog: http://blog.csdn.net/h_zhang
 
 ---
 
+# StackOverflowXmlParser
+关于XML的pull解析的一个例子
+
+###XML Feed的URL
+http://stackoverflow.com/feeds/tag?tagnames=android&sort=newest
+
+###XML大致内容：
+```xml
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" ...">
+     <title type="text">newest questions tagged android - Stack Overflow</title>
+     ...
+     <entry>
+     ...
+     </entry>
+     <entry>
+         <id>http://stackoverflow.com/q/9439999</id>
+         <re:rank scheme="http://stackoverflow.com">0</re:rank>
+         <title type="text">Where is my data file?</title>
+         <category scheme="http://stackoverflow.com/feeds/tag?tagnames=android&sort=newest/tags" term="android"/>
+         <category scheme="http://stackoverflow.com/feeds/tag?tagnames=android&sort=newest/tags" term="file"/>
+         <author>
+         <name>cliff2310</name>
+         <uri>http://stackoverflow.com/users/1128925</uri>
+         </author>
+         <link rel="alternate" href="http://stackoverflow.com/questions/9439999/where-is-my-data-file" />
+         <published>2012-02-25T00:30:54Z</published>
+         <updated>2012-02-25T00:30:54Z</updated>
+         <summary type="html">
+         <p>I have an Application that requires a data file...</p>
+
+         </summary>
+     </entry>
+     <entry>
+     ...
+     </entry>
+    ...
+ </feed>
+```
+
+代码解析出XML Feed中所有的entry条目，并存于List<Entry> list中；
+
 # NetworkConnet
 关于网络连接，以及从网络中获取数据的基本操作
 
