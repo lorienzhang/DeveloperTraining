@@ -26,7 +26,7 @@ Blog: http://blog.csdn.net/h_zhang
 ###XML Feed的URL
 http://stackoverflow.com/feeds/tag?tagnames=android&sort=newest
 
-###XML大致内容：
+###XML大致内容
 ```xml
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" ...">
      <title type="text">newest questions tagged android - Stack Overflow</title>
@@ -59,7 +59,7 @@ http://stackoverflow.com/feeds/tag?tagnames=android&sort=newest
  </feed>
 ```
 
-代码解析出XML Feed中所有的entry条目，并存于List<Entry> list中；
+代码解析出XML Feed中所有的entry条目，并存于list中；
 
 # NetworkConnet
 关于网络连接，以及从网络中获取数据的基本操作
