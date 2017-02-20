@@ -5,6 +5,21 @@ Blog: http://blog.csdn.net/h_zhang
 
 ---
 
+# AsyncLoader
+关于Android数据异步加载机制以及获取联系人信息的例子
+
+### 效果图
+<div class='row'>
+	<img src='./asyncloader/asyncloader.gif' width='300px'/>
+</div>
+
+### 相关知识点
+* Loader机制：LoaderManager, LoaderManager.Callbacks, CursorLoader, CursorAdapter;
+* 获取联系人信息，查询Contacts表：DISPLAY_NAME；
+* 获取某一联系人详细信息，查询Conatacts.DATA表；
+* 从Cursor中取数据用到的index和先前定义PROJECTION是一一对应的；
+* 从Cursor中取数据的编码风格一半固定：cursor.moveToFirst(); do{...}while(cursor.moveToNext());
+
 # StackOverflowXmlParser
 关于XML的pull解析的一个例子
 
