@@ -7,7 +7,7 @@ Blog: http://blog.csdn.net/h_zhang
 
 # UpNavigate
 ActionBar中的Up导航的基本使用；
-跨APP调用Activity，Up导航的正确表现行为；
+跨App调用Activity时Up导航的正确表现行为；
 
 ### 效果图
 <div class='row'>
