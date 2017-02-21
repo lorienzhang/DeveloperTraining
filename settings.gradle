@@ -1,1 +1,1 @@
-include ':crossfading', ':screenslide', ':zoom', ':layoutchange', ':networkconnect', ':stackoverflowxmlparser', ':asyncloader'
+include ':crossfading', ':screenslide', ':zoom', ':layoutchange', ':networkconnect', ':stackoverflowxmlparser', ':asyncloader', ':swipeviewswithtabs'

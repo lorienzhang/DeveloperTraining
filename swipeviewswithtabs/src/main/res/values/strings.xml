@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SwipeViewsWithTabs</string>
+    <string name="section_dummy">Section %1d is just dummy section</string>
+</resources>
