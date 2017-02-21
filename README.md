@@ -18,6 +18,7 @@ ActionBar中的Up导航的基本使用；
 * actionBar.setDisplayHomeAsUpEnabled(boolean);设置是否显示Up导航；
 * 在Manifest文件中通过android:parentActivityName属性指定导航的父Activity；
 * 跨App启动Activity时，Up导航的正确行为（创建新的返回栈以完成导航功能）；
+* API: NavUtils, TaskStackBuilder
 
 
 # SwipeViewsWithTabs
