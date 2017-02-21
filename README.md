@@ -5,15 +5,30 @@ Blog: http://blog.csdn.net/h_zhang
 
 ---
 
+# UpNavigate
+ActionBar中的Up导航的基本使用；
+跨APP调用Activity，Up导航的正确表现行为；
+
+### 效果图
+<div class='row'>
+	<img src='./upnavigate/upnavigate.gif' width='300px'/>
+</div>
+
+### 相关知识点
+* actionBar.setDisplayHomeAsUpEnabled(boolean);设置是否显示Up导航；
+* 在Manifest文件中通过android:parentActivityName属性指定导航的父Activity；
+* 跨App启动Activity时，Up导航的正确行为（创建新的返回栈以完成导航功能）；
+
+
 # SwipeViewsWithTabs
 用户导航之带有Tabs的屏幕横向滑动
 
-# 效果图
+### 效果图
 <div class='row'>
 	<img src='./swipeviewswithtabs/swipeviewswithtabs.gif' width='300px'/>
 </div>
 
-# 相关知识点
+### 相关知识点
 * ViewPager和Actionbar的Tabs联动使用;
 * FragmentPagerAdapter和FragmentStatePagerAdatper的各自使用场景；
 * 使用PagerTitleStrip标签作为ViewPager的标题栏；
