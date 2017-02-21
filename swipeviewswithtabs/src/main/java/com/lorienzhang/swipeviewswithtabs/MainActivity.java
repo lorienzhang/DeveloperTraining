@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
         mPagerAdapter = new DemoDummyPagerAdapter(getSupportFragmentManager());
         mViewPager.setAdapter(mPagerAdapter);
 
-        //在actionbar中添加tabs
+        //设置带有Tabs的ActionBar。。。
         final ActionBar actionBar = getSupportActionBar();
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
