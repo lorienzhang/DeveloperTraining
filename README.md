@@ -6,7 +6,7 @@ Blog: http://blog.csdn.net/h_zhang
 ---
 
 # SwipeViewsWithTabs
-一个带有Tabs的屏幕滑动导航的例子
+用户导航之带有Tabs的屏幕横向滑动
 
 # 效果图
 <div class='row'>
@@ -16,7 +16,7 @@ Blog: http://blog.csdn.net/h_zhang
 # 相关知识点
 * ViewPager和Actionbar的Tabs联动使用;
 * FragmentPagerAdapter和FragmentStatePagerAdatper的各自使用场景；
-* 使用<PagerTitleStrip>作为ViewPager的标题栏；
+* 使用PagerTitleStrip标签作为ViewPager的标题栏；
 
 
 # AsyncLoader
