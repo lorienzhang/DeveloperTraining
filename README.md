@@ -5,6 +5,19 @@ Blog: http://blog.csdn.net/h_zhang
 
 ---
 
+# SwipeToRefresh
+Android提供的一个下拉刷新控件：SwipeRefreshLayout
+
+### 效果图
+<div class='row'>
+	<img src='./swipetorefresh/swiperefresh.gif' width='300px'/>
+</div>
+
+### 相关知识点
+* SwipeRefreshLayout的基本使用；
+* SwipeRefreshLayout的子view只支持ListView和GridView；
+* 在Action Bar中添加刷新的action
+
 # UpNavigate
 ActionBar中的Up导航的基本使用；
 跨App调用Activity时Up导航的正确表现行为；
